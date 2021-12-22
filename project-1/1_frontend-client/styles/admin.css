@@ -1,0 +1,43 @@
+main {
+  padding: 20px;
+}
+main section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section table {
+  max-width: auto;
+  margin: 0 auto;
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #000;
+}
+main section table th {
+  border: 2px solid #000;
+}
+main section table tr {
+  border: 2px solid #000;
+}
+
+main section table tr td {
+  border: 1px solid #000;
+}
+button {
+  padding: 5px;
+  margin: 10px;
+  font-family: sans-serif;
+  color: rgb(28, 26, 26);
+  font-size: 14px;
+}
+button:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+#order-name #order-email #order-dimenssions {
+  max-width:300px;
+}
+#order-phone {
+  min-width:100px;
+}

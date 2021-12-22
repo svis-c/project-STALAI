@@ -1,0 +1,11 @@
+body {
+    background-image: url('woods.jpg');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+}

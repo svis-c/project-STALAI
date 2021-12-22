@@ -1,0 +1,60 @@
+input,
+select {
+  background-position: 10px 10px;
+  padding-left: 5px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+label {
+  font-family: sans-serif;
+  color: rgb(46, 43, 43);
+  font-size: 16px;
+  font-weight: 600;
+}
+section div {
+  padding: 10px;
+}
+#freetext {
+  width: 500px;
+  height: 100px;
+  box-sizing: border-box;
+  resize: none;
+  border-radius: 5px;
+}
+
+#form-submit {
+  padding: 5px;
+  margin: 10px;
+  font-family: sans-serif;
+  color: rgb(28, 26, 26);
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+main section div input[type='submit']:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+input[type='submit'] {
+  width: 200px;
+}
+section {
+  padding-top: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+form {
+  padding-top: 50px;
+}
+
+.message {
+  margin: 25px auto;
+  width: 300px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(112, 101, 101);
+}

@@ -1,0 +1,30 @@
+#portfolios-container {
+  padding-top: 50px;
+  font-size: 18px;
+  display: grid;
+  row-gap: 10rem;
+  column-gap: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-auto-rows: 500px;
+}
+
+#portfolios-container img {
+  height: 100%;
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.563);
+}
+#portfolios-container li {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#portfolios-container ul {
+  padding-bottom: 40px;
+}
+body {
+  height: 600px;
+  background-image: url('woods.jpg');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}

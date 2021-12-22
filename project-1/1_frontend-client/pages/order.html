@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stalai ir Co. | Atlikti užsakymą</title>
+    <!-- Custom JS -->
+    <script defer src="../scripts/order.js"></script>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/order.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logo">Stalai ir Co.</div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Pagrindinis</a></li>
+          <li><a href="./about.html">Apie Mus</a></li>
+          <li><a href="./order.html">Užsisakyk savo išskirtinį stalą</a></li>
+          <li><a href="./portfolio.html">Mūsų darbų galerija</a></li>
+          <li><a href="./contacts.html">Kontaktai</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Atlikti užsakymą</h1>
+        <form id="order-form">
+          <div>
+            <label for="name">Vardas, Pavardė:</label><br />
+            <input type="text" id="name" /><br />
+          </div>
+          <div>
+            <label for="email">el. paštas:</label><br />
+            <input type="text" id="email" /><br />
+          </div>
+          <div>
+            <label for="phone">Telefono numeris:</label><br />
+            <input type="tel" id="phone" required /><br />
+          </div>
+          <div>
+            <label for="dimenssions">Stalo išmatavimai, cm:</label><br />
+            <input type="text" id="dimenssions" /><br />
+          </div>
+
+          <div>
+            <label for="freetext">Jūsų komentarai:</label><br />
+            <textarea id="freetext"></textarea><br />
+          </div>
+
+          <div><input id="form-submit" type="submit" value="Pateikti" /></div>
+        </form>
+        <p id="form-submit-message"></p>
+      </section>
+    </main>
+  </body>
+</html>
